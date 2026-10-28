@@ -95,6 +95,7 @@
                                 @submit="sendCruiseRatioCmd" />
                         </v-col>
                     </v-row>
+                    <machine-settings-printer-setup :narrow="el.is.small" />
                 </v-card-text>
             </template>
         </responsive>
@@ -109,9 +110,11 @@ import { mdiEngine } from '@mdi/js'
 import { Debounce } from 'vue-debounce-decorator'
 import NumberInput from '@/components/inputs/NumberInput.vue'
 import Responsive from '@/components/ui/Responsive.vue'
+import MachineSettingsPrinterSetup from '@/components/panels/MachineSettings/PrinterSetup.vue'
 
 @Component({
     components: {
+        MachineSettingsPrinterSetup,
         NumberInput,
         Panel,
         Responsive,
