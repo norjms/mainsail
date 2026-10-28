@@ -744,6 +744,20 @@
                 "MinimumCruiseRatio": "Min. Cruise Ratio",
                 "SquareCornerVelocity": "Square Corner Velocity",
                 "Velocity": "Velocity"
+            },
+            "PrinterSetup": {
+                "Brand": "Brand",
+                "BuildPlate": "Build plate",
+                "Color": "Color",
+                "Headline": "Printer setup",
+                "Material": "Material",
+                "NozzleSize": "Nozzle size",
+                "NozzleType": "Nozzle type",
+                "PlateZOffset": "Plate Z offset",
+                "Restart": "Restart Klipper",
+                "RestartNeeded": "Klipper still uses {configured}. Restart to apply the new nozzle size.",
+                "SaveOffsetHint": "Save the current Z offset for this plate",
+                "Sync": "Sync to Watchtower"
             }
         },
         "MacrosPanel": {
